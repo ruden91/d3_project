@@ -1,0 +1,24 @@
+{
+    "name": "my_d3_project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src -d lib",
+        "dev": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruden91/d3_project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ruden91/d3_project/issues"
+    },
+    "homepage": "https://github.com/ruden91/d3_project#readme",
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-env": "^1.6.0"
+    }
+}
