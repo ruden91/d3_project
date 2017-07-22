@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import * as d3 from 'd3';
+import Clock from './Clock';
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <MainRangeSelection />
-        <Cards />
-        <MainContainer />
-        <SubContainer />
+      <div>
+        <Clock />
+        <Clock />
+        <Clock />
+        <Clock />
+        <Clock />
+        <Clock />
       </div>
     )
   }
