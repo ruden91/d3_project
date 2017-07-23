@@ -1,0 +1,21 @@
+* {
+  margin:0;
+  padding:0;
+  font-size: 18px;
+}
+
+.awesome-board__header {
+  height:50px;
+  line-height:50px;
+  text-align: center;
+  color:#fff;
+  background-color:#222;
+}
+
+.awesome-board__footer {
+  height:50px;
+  line-height:50px;
+  text-align: center;
+  color:#fff;
+  background-color:#222;
+}
