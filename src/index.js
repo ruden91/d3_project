@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App isLoggedIn={false}/>, document.getElementById('root'));
 registerServiceWorker();
